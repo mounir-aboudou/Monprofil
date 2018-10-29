@@ -1,173 +1,165 @@
-body {
-	background-color : #f7f7f7 ;
-}
+	body {
+		background-color : #f7f7f7 ;
+	}
 
-h1, h2 {
-	font-family: 'Pacifico', cursive;
-	font-weight: lighter;
-	text-align: center;
-	padding: 20px;
-	box-shadow: 0 10px 30px rgba(0,0,0,.1);
-	border-radius: 10px;
-}
+	h1, h2 {
+		font-family: 'Pacifico', cursive;
+		font-weight: lighter;
+		text-align: center;
+		padding: 20px;
+		box-shadow: 0 10px 30px rgba(0,0,0,.1);
+		border-radius: 10px;
+	}
 
-h1 {
-	
-	color : #13334c;
-	background-color: white;
-	font-size: 45px;
-	font-weight: bold;
-	margin-left: -100px;
-	margin-right: -100px;
-	margin-bottom: 0;
-	z-index: 2;
-}
+	h1 {
+		
+		color : #13334c;
+		background-color: white;
+		font-size: 45px;
+		font-weight: bold;
+		margin-left: -100px;
+		margin-right: -100px;
+		margin-bottom: 0;
+		z-index: 2;
+	}
 
-h2 {
-	color: #13334c;
-	background-color: white;
-	font-size: 25px;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	z-index: 2;
-}
+	h2 {
+		color: #13334c;
+		background-color: white;
+		font-size: 25px;
+		margin-bottom: 30px;
+		margin-top: 30px;
+		z-index: 2;
+	}
 
-p {
-	font-family: 'Nunito', sans-serif;
-	color:black;
-	margin-left: 50px;
-	margin-right: 50px;
-	text-align: justify;
-}
+	p {
+		font-family: 'Nunito', sans-serif;
+		color:black;
+		margin-left: 50px;
+		margin-right: 50px;
+		text-align: justify;
+	}
 
-a {
+	a {
 
-	color: #BD8FE8;
-	text-decoration: none;
-}
+		color: #BD8FE8;
+		text-decoration: none;
+	}
 
-a : hover {
+	a:hover {
 
-	color : #F5EE87;
-}
+		color : #BBC3D9;
+	}
 
-ul a {
+	ul a {
 
-	color: #13334c;
-	text-decoration: none;
-}
+		color: #13334c;
+		text-decoration: none;
+	}
 
-ul a:hover {
-	color : #FFB500;
-}
+	ul a:hover {
+		color : #FFB500;
+	}
 
-#photo {
-	width: 300;
-	margin: 300;
-	margin-top: -25px;
-	margin-bottom: -25px;
-	border-radius: 20px;
-	z-index: 4;
-}
+	#photo {
+		width: 300;
+		margin: 300;
+		margin-top: -25px;
+		margin-bottom: -25px;
+		border-radius: 20px;
+		z-index: 4;
+	}
 
-#devise {
-	color: white;
-	background-color : #13334c;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: -50px;
-	margin-right: -50px;
-	z-index: 2;
-}
+	#devise {
+		color: white;
+		background-color : #13334c;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: -50px;
+		margin-right: -50px;
+		z-index: 2;
+	}
 
-.style {
-	text-align:center;
-	width:700px;
-	margin: 0 auto;
-}
+	.style {
+		text-align:center;
+		width:700px;
+		margin: 0 auto;
+	}
 
-.valeur {
-	color : #FFB500;
-	font-weight:bold;
-	font-style: italic;
-}
+	.valeur {
+		color : #FFB500;
+		font-weight:bold;
+		font-style: italic;
+	}
 
-.list-without-bullet-point {
-  	list-style-type: none;
-  	font-family: 'Pacifico', cursive;
-  	font-size: 25px;
-	font-weight: lighter;
-	text-align: center;
-  	color: #13334c;
-  	padding: 4px;
-	box-shadow: 0 10px 30px rgba(0,0,0,.1);
-	border-radius: 10px;
-	background-color : white;
-	margin-top: -15px;
-	margin-bottom: 20px;
-	margin-left: -50px;
-	margin-right: -50px;
-	z-index: 2;
-}
+	.list-without-bullet-point {
+	  	list-style-type: none;
+	  	font-family: 'Pacifico', cursive;
+	  	font-size: 25px;
+		font-weight: lighter;
+		text-align: center;
+	  	color: #13334c;
+	  	padding: 4px;
+		box-shadow: 0 10px 30px rgba(0,0,0,.1);
+		border-radius: 10px;
+		background-color : white;
+		margin-top: -15px;
+		margin-bottom: 20px;
+		margin-left: -50px;
+		margin-right: -50px;
+		z-index: 2;
+	}
 
-.list-without-bullet-point li {
+	.list-without-bullet-point li {
 
-	display: inline;
-	margin: 20px;
-}
+		display: inline;
+		margin: 15px;
+	}
 
-.entreprise {
-	text-align: center;
-}
+	.entreprise {
+		text-align: center;
+	}
 
-.fa-linkedin-in {
-	font-size: 50px;
-}
+	.fa-linkedin-in {
+		font-size: 50px;
+	}
 
-.list-without-bullet-point-2 {
-  	list-style-type: none;
-  }
+	.list-without-bullet-point-2 {
+	  	list-style-type: none;
+	}
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .style {
-  	text-align:center;
-    width: 700px;
-    margin: 0 auto;
-  }
+	@media (max-width: 960px) {
+	  /* For a screen < 960px, this CSS will be read */
+	  	.style {
+	  		text-align:center;
+	    	width: 700px;
+	    	margin: 0 auto;
+	  	}
 
-  #photo {
-	width: 200px;
-	margin: 200;
-    /*margin:0 auto;*/
-    }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .style {
-  	text-align:center;
-  	width:500px;
-  	margin: 0 auto;
-  }
+	  	#photo {
+			width: 200px;
+	  	}
+	}
+	@media (max-width: 720px) {
+	  /* For a screen < 720px, this CSS will be read */
+	  	.style {
+	  		text-align:center;
+	  		width:500px;
+	  		margin: 0 auto;
+	  	}
 
-  #photo {
-  	text-align:center;
-	width: 200px;
-    margin: 200;
-
-    }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .style {
-  	text-align:center;
-    width: 300px;
-    /*margin:0 auto;*/
- }
-    #photo {
-	width: 100px;
-	margin: 100;
-    /*margin:0 auto;*/
-
-    }
-}
+	  	#photo {
+	  		text-align:center;
+			width: 200px;
+	    }
+	}
+	@media (max-width: 540px) {
+	  /* For a screen < 540px, this CSS will be read */
+	  	.style {
+	  		text-align:center;
+	    	width: 300px;
+	 	}
+	  	#photo {
+			width: 100px;
+	   	}
+	}
