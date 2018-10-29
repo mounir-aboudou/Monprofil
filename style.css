@@ -133,7 +133,7 @@
 	  	.style {
 	  		text-align:center;
 	    	width: 700px;
-	    	margin: 0 auto;
+	    	/*margin: 0 auto;*/
 	  	}
 
 	  	#photo {
@@ -146,7 +146,7 @@
 	  	.style {
 	  		text-align:center;
 	  		width:500px;
-	  		margin: 0 auto;
+	  		/*margin: 0 auto;*/
 	  	}
 
 	  	#photo {
@@ -159,7 +159,7 @@
 	  	.style {
 	  		text-align:center;
 	    	width: 300px;
-	    	margin: 0 auto;
+	    	/*margin: 0 auto;*/
 	 	}
 	  	#photo {
 			width: 100px;
