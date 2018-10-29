@@ -138,6 +138,7 @@
 
 	  	#photo {
 			width: 200px;
+			text-align:center;
 	  	}
 	}
 	@media (max-width: 720px) {
@@ -158,8 +159,10 @@
 	  	.style {
 	  		text-align:center;
 	    	width: 300px;
+	    	margin: 0 auto;
 	 	}
 	  	#photo {
 			width: 100px;
+			text-align:center;
 	   	}
 	}
