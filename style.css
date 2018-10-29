@@ -132,7 +132,7 @@
 	  /* For a screen < 960px, this CSS will be read */
 	  	.style {
 	  		text-align: center;
-	    	width: 700px;
+	    	width: 672px;
 	    	margin: 0 auto;
 	  	}
 
@@ -146,7 +146,7 @@
 	  /* For a screen < 720px, this CSS will be read */
 	  	.style {
 	  		text-align: center;
-	  		width:500px;
+	  		width: 504px;
 	  		margin: 0 auto;
 	  	}
 
@@ -160,7 +160,7 @@
 	  /* For a screen < 540px, this CSS will be read */
 	  	.style {
 	  		text-align: center;
-	    	width: 300px;
+	    	width: 378px;
 	    	margin: 0 auto;
 	 	}
 
